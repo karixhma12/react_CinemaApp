@@ -1,10 +1,9 @@
-
+import {useParams} from "react-router-dom";
 
 function Genre(){
+    const {name} = useParams();
     return(
-        <div>
-            <h1> Genre Page </h1>
-        </div>
+        <h1> Welcome to {name} movies </h1>
     )
 }
 
