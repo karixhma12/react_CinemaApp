@@ -8,9 +8,9 @@ function Genre(){
     return(
         <div> 
             <h1> {name} movies </h1>
-            <div>
+            <div className="movies-grid">
                 {genreMovies.map(movie=>{
-                   return <div key={movie.id}>
+                   return <div key={movie.id} className="movie-card">
                         <h3> {movie.title} </h3>
                         <p> {movie.year}  • ⭐ {movie.rating} </p>
                     </div>

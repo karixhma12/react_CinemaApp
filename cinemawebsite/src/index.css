@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-bottom: 2px solid #e50914;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #e50914;
+}
+
+nav a:first-child {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #e50914;
+}
+
+/* MAIN CONTENT */
+main {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+  border-top: 1px solid #222;
+  margin-top: 4rem;
+}
+
+/* GENRE PAGE */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+/* MOVIE GRID */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+/* MOVIE CARD */
+.movie-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.2s;
+  border: 1px solid #222;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  border-color: #e50914;
+}
+
+.movie-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* ERROR BOUNDARY */
+.error-container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.error-container h2 {
+  font-size: 2rem;
+  color: #e50914;
+  margin-bottom: 1rem;
+}
+
+.error-container p {
+  color: #aaa;
+}
+
+/* HOME PAGE */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+/* 404 PAGE */
+.not-found {
+  text-align: center;
+  padding: 4rem;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  color: #e50914;
+}
+
+.not-found p {
+  color: #aaa;
+  margin-top: 1rem;
+}

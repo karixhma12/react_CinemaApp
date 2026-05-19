@@ -8,6 +8,7 @@ function Layout(){
                 <Link to="/genre/action"> Action </Link>
                 <Link to="/genre/horror"> Horror </Link>
                 <Link to="/genre/comedy"> Comedy </Link>
+                <Link to="/genre/mystery"> Mystery </Link>
             </nav>
 
             <main>
